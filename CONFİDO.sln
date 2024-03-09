@@ -5,6 +5,14 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONFİDO.Webui", "CONFİDO.Webui\CONFİDO.Webui.csproj", "{D7902665-BB09-4F1D-8D8C-D37EA6598B9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONFİDO.Data", "CONFİDO.Data\CONFİDO.Data.csproj", "{377BEB7D-CCC6-4C0E-B001-7CECA9EC03BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONFİDO.Core", "CONFİDO.Core\CONFİDO.Core.csproj", "{2550ECDA-2454-4953-A26D-6B478D6BEA72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONFİDO.Entity", "CONFİDO.Entity\CONFİDO.Entity.csproj", "{C8A9BEDB-69C3-41D6-8373-AB644FD52B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONFİDO.Service", "CONFİDO.Service\CONFİDO.Service.csproj", "{94361245-0AD4-49DF-97B4-85BB8EE57AFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{D7902665-BB09-4F1D-8D8C-D37EA6598B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7902665-BB09-4F1D-8D8C-D37EA6598B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7902665-BB09-4F1D-8D8C-D37EA6598B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377BEB7D-CCC6-4C0E-B001-7CECA9EC03BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377BEB7D-CCC6-4C0E-B001-7CECA9EC03BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377BEB7D-CCC6-4C0E-B001-7CECA9EC03BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377BEB7D-CCC6-4C0E-B001-7CECA9EC03BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2550ECDA-2454-4953-A26D-6B478D6BEA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2550ECDA-2454-4953-A26D-6B478D6BEA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2550ECDA-2454-4953-A26D-6B478D6BEA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2550ECDA-2454-4953-A26D-6B478D6BEA72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A9BEDB-69C3-41D6-8373-AB644FD52B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A9BEDB-69C3-41D6-8373-AB644FD52B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A9BEDB-69C3-41D6-8373-AB644FD52B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A9BEDB-69C3-41D6-8373-AB644FD52B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94361245-0AD4-49DF-97B4-85BB8EE57AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94361245-0AD4-49DF-97B4-85BB8EE57AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94361245-0AD4-49DF-97B4-85BB8EE57AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94361245-0AD4-49DF-97B4-85BB8EE57AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
