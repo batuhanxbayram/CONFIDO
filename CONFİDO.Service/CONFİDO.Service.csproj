@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CONFİDO.Core\CONFİDO.Core.csproj" />
+    <ProjectReference Include="..\CONFİDO.Data\CONFİDO.Data.csproj" />
+    <ProjectReference Include="..\CONFİDO.Entity\CONFİDO.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

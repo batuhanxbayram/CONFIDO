@@ -1,4 +1,5 @@
 ﻿using CONFİDO.Core;
+using CONFİDO.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,8 @@ namespace CONFİDO.Data.Repositories
     
         public class Repository<T> : IRepository<T> where T : class, IEntityBase, new()
         {
-            private Context.AppContext dbContext;
-            public Repository(Context.AppContext dbContext)
+            private AppDbContext dbContext;
+            public Repository(AppDbContext dbContext)
             {
                 this.dbContext = dbContext;
             }

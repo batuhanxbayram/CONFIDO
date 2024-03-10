@@ -16,7 +16,7 @@ namespace CONFİDO.Data.Extensions
         public static IServiceCollection LoadDataLayerExtension(this IServiceCollection services, IConfiguration configuration)
         {
 
-            services.AddDbContextPool<Context.AppContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContextPool<Context.AppDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
 
             services.AddScoped<IUnitOfWork,UnitOfWork>();

@@ -1,4 +1,5 @@
 ﻿using CONFİDO.Core;
+using CONFİDO.Data.Context;
 using CONFİDO.Data.Repositories;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,9 @@ namespace CONFİDO.Data.UnitOfWorks
 {
     public class UnitOfWork:IUnitOfWork
     {
-        private readonly Context.AppContext dbContext;
+        private readonly AppDbContext dbContext;
 
-        public UnitOfWork(Context.AppContext dbContext)
+        public UnitOfWork(AppDbContext dbContext)
         {
             this.dbContext = dbContext;
         }

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CONFİDO.Core\CONFİDO.Core.csproj" />
+  </ItemGroup>
+
 </Project>

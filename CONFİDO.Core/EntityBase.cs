@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CONFİDO.Core
 {
-    public class EntityBase
+    public abstract class EntityBase
     {
         public virtual Guid Id { get; set; } = Guid.NewGuid();
         public virtual string CreatedBy { get; set; } = "Undefined";

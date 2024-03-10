@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CONFİDO.Core\CONFİDO.Core.csproj" />
+    <ProjectReference Include="..\CONFİDO.Entity\CONFİDO.Entity.csproj" />
   </ItemGroup>
 
 </Project>
